@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+.cta {
+    background-color: #E02C6D;
+    color: white;
+    padding: 2%;
+    border: solid;
+    border-color: #E02C6D;
+    border-radius: 20px;
+}
+
+.cta:hover {
+    background-color: antiquewhite;
+    color: #E02C6D;
+    cursor: pointer;
+    border-color: #E02C6D;
+}
+
+/* header styles */
+/* navigation */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 2%;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 0;
+}
+
+.hero-section img {
+    width: auto;
+}
+
+.hero-content {
+    width: 40%;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* sponsors styling */
+
+hr {
+    width: 80%;
+}
+
+.sponsors {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* popular collection styling */
+
+.section-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 10%;
+}
+
+.collection-box{
+    margin: 2%;
+    padding: 2%;
+}
+
+.collection-box img{
+    width: 100%;
+}
+
+.collection-box h2{
+    font-size: 2.5em;
+}
+
+.collection-box h3{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.collection-box p{
+    color: #787885;
+    width: 70%;
+}
+
+.see-more{
+    font-size: 1em;
+    font-weight: bold;
+    color: #E02C6D;
+    text-align: end;
+    width: 90%;
+}
